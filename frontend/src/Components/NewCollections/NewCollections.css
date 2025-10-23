@@ -25,3 +25,47 @@
    margin-top: 50px;
 
 }
+
+@media(max-width:1280px){
+  
+    .new-collections-item{
+        gap:20px;
+    }
+    .new-collections-item{
+    margin-top: 30px;
+   }
+}
+@media(max-width:1024px){
+  
+   .new-collections h1{
+    font-size: 40px;
+   }
+   .new-collections-item{
+    margin-top: 50px;
+   }
+}
+@media(max-width:800px){
+   
+    .new-collections h1{
+        font: 35px;;
+    }
+    .collections  {
+    margin-top: 60px;
+   }
+}
+@media(max-width:500px){
+   
+    .new-collections h1{
+        font-size: 30px;
+    }
+    .collections{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+   }
+   .new-collections hr{
+    height:3px;
+    width:120px;
+    border-radius: 3px;
+   }
+}

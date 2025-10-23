@@ -72,3 +72,83 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+@media(max-width:1280px){
+    .loginsignup{
+        padding-top: 50px;
+    }
+    .loginsignup-container{
+        width:auto;
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .loginsignup-container button{
+        width:500px;
+        height:60px
+    }
+    .loginsignup-container input{
+        height:60px;
+        font-size: 22px;
+    }
+    .loginsignup-agree{
+        font-size: 16px;
+    }
+    .loginsignup-agree{
+        margin-top: -15px;
+    }
+}
+@media(max-width:1024px){
+    .loginsignup-container{
+        max-width: 480px;
+        height:480px;
+    }
+}
+@media(max-width:800px){
+    .loginsignup-container{
+        max-width: 420px;
+        max-height: 450px;
+        margin:0px auto;
+    }
+    .loginsignup-container input{
+        height:40px;
+        width:90%
+    }
+    .loginsignup-container button{
+        width:400px;
+        height:40px;
+        font-size: 20px;
+    }
+    .loginsignup-login{
+        font-size: 16px;
+    }
+    .loginsignup-agree{
+        font-size: 15px;
+        gap:1px;
+        margin-top: 5px;
+    }
+    .loginsignup-agree input{
+        width:10px;
+    }
+}
+@media(max-width:500px){
+    .loginsignup-container button{
+        width:300px;
+
+    }
+    .loginsignup-container{
+        max-width: 350px;
+        margin:10px;
+        gap:10px
+    }
+   .loginsignup-login{
+    font-size: 14px;
+    margin-top: 5px;
+   }
+   .loginsignup-agree{
+    margin-top: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+   }
+}
